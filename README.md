@@ -44,14 +44,12 @@ The project is built using **HTML5, CSS3, and JavaScript** and is containerized 
 ```text
 INS 205/
 │
-├── images/
-│   ├── hero.jpg
+├── images/
 │   ├── chocolate.jpg
 │   ├── redvelvet.jpg
 │   ├── vanilla.jpg
 │   ├── strawberry.jpg
-│   ├── rainbow.jpg
-│   ├── blackforest.jpg
+│   ├── rainbow.jpg
 │   ├── wedding.jpg
 │   └── birthday.jpg
 │
