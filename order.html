@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foody Castle | Order</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+
+        <h2 class="logo">🎂 Foody Castle</h2>
+
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="order.html" class="active">Order</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </nav>
+</header>
+
+<section class="order-section">
+
+    <h2>Place Your Order</h2>
+
+    <form class="order-form">
+
+        <input type="text" placeholder="Full Name" required>
+
+        <input type="tel" placeholder="Phone Number" required>
+
+        <input type="email" placeholder="Email Address" required>
+
+        <textarea placeholder="Delivery Address" required></textarea>
+
+        <select required>
+            <option value="">Choose Your Cake</option>
+            <option>Chocolate Cake</option>
+            <option>Red Velvet Cake</option>
+            <option>Vanilla Cake</option>
+            <option>Strawberry Cake</option>
+            <option>Rainbow Cake</option>
+            <option>Birthday Cake</option>
+            <option>Wedding Cake</option>
+        </select>
+
+        <input type="number" min="1" placeholder="Quantity" required>
+
+        <input type="date" required>
+
+        <select required>
+            <option value="">Payment Method</option>
+            <option>Cash on Delivery</option>
+            <option>Bank Transfer</option>
+            <option>Card Payment</option>
+        </select>
+
+        <textarea placeholder="Special Instructions (Optional)"></textarea>
+
+        <button type="submit" class="btn">Place Order</button>
+
+    </form>
+
+</section>
+
+<footer>
+    <p>© 2026 Foody Castle | Designed by Fatymer❤️</p>
+</footer>
+
+<script>
+const form = document.querySelector(".order-form");
+
+form.addEventListener("submit", function(e){
+    e.preventDefault();
+
+    alert("🎉 Your order has been placed successfully! Thank you for choosing Foody Castle.");
+
+    form.reset();
+});
+</script>
+
+</body>
+</html>

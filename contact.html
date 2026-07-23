@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Contact Us | Foody Castle</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<h2 class="logo">🎂 Foody Castle</h2>
+
+<ul class="nav-links">
+
+<li><a href="home.html">Home</a></li>
+
+<li><a href="menu.html">Menu</a></li>
+
+<li><a href="order.html">Order</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="contact.html" class="active">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="order-section">
+
+<h2>Contact Us</h2>
+
+<form class="order-form">
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Your Email" required>
+
+<input type="text" placeholder="Subject" required>
+
+<textarea placeholder="Your Message" required></textarea>
+
+<button class="btn">Send Message</button>
+
+</form>
+
+<div style="text-align:center;margin-top:50px;">
+
+<h3>Our Contact Information</h3>
+
+<p>📞 +234 808 488 1950</p>
+
+<p>📧 info@foodycastle.com</p>
+
+<p>📍 Jos, Plateau State, Nigeria</p>
+
+<p>🕒 Monday - Saturday | 8:00 AM - 7:00 PM</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Foody Castle | Designed by Fatymer ❤️</p>
+
+</footer>
+
+<script>
+
+const contactForm=document.querySelector(".order-form");
+
+contactForm.addEventListener("submit",function(e){
+
+e.preventDefault();
+
+alert("🎉 Thank you for contacting Foody Castle. We will reply as soon as possible.");
+
+contactForm.reset();
+
+});
+
+</script>
+
+</body>
+
+</html>
